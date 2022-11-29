@@ -1,0 +1,758 @@
+
+// disini atur aja kak menu bot nya
+// jangan lupa hapus fitur yg ga penting
+
+var monoSpace = '```'
+
+exports.listmenu = (sender,prefix,ad,namenya,premnya,usernya,romnya,tanggal,jam,no) => {
+return`
+━━━ 𝘼𝙉𝙂𝙂𝘼-𝘽𝙊𝙏 ━━━
+
+ 𝗨𝗦𝗘𝗥 𝗜𝗡𝗙𝗢
+ ID : @${sender.split('@')[0]}
+ Nama : ${namenya}
+ Premium : ${premnya}
+
+ 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢
+ Library : Baileys-MD
+ Time : ${jam} WIB
+ Date : ${tanggal}
+ Terdaftar : ${usernya}
+ Room Chat : ${romnya}
+ Total Fitur : 600+
+
+ 𝙈𝘼𝙄𝙉 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}menu
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}iklan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}rules
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}owner
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}script
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}infobot
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}donasi
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}donate
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}jadibot
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}listjadibot
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sewabot
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}groupbot
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ownerinfo
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}infoowner
+
+ 𝙐𝙎𝙀𝙍 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}verify
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}report
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}request
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}transfer
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}menfess
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}buatroom
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}secretchat
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekprem
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}daftarprem
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}changename
+
+ 𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}error
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}clearerr
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}siaran
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}session
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}resetdb
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}runtime
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}setexif
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}setwm
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}setfooter
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}setppbot
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}addprem
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}delprem
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bc
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bctext
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bcvideo
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bcaudio
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bcimage
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}broadcast
+
+ 𝙎𝙏𝙊𝙍𝙀 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}kali 1 2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bagi 1 2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}kurang 1 2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tambah 1 2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}dellist key
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}addlist key@response
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}update key@response
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}done <reply orderan>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}proses <reply orderan>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}list <only group>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}shop <only group>
+ 
+ 𝙂𝙍𝙊𝙐𝙋 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}fitnah
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}delete
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}revoke
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tagall
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}hidetag
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}setdesc
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}linkgrup
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}infogroup
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}setppgrup
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}setnamegrup
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}group open
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}group close
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}antilink on
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}antilink off
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}welcome on
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}welcome off
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tiktokauto on
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tiktokauto off
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}kick @tag
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}demote @tag
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}promote @tag
+ 
+ 𝘼𝙐𝙏𝙊𝘿𝙀𝘾𝙏 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sadcat
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}translate
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}stalkff
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}stalknpm
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}stalkgithub
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}balikhuruf
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}balikangka
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}besarkecil
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bilangangka
+
+ 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 𝙈𝙀𝙉𝙐
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tiktok
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ytmp3
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ytmp4
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}pinterest
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}playmp3
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}playmp4
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}gitclone
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}mediafire
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wikimedia
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}soundcloud
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}infogempa
+
+ 𝘾𝙊𝙉𝙑𝙀𝙍𝙏 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tts
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ttp
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ttp2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}attp
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}attp2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tourl
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}upload
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}toimg
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}toimage
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tomp3
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}toaudio
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tomp4
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tovideo
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}emojimix
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}emojmix
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}emojinua
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}mixemoji
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}stiker
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sticker
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sgif
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}stikergif
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}stickergif
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}swm
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}stikerwm
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}stickerwm
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}smeme
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}memestiker
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}stikermeme
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}stickermeme
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}takesticker
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}emojinua2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}mixemoji2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}emojmix2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}emojimix2
+
+ 𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}spamcall
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}translate
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ssweb-pc
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ssweb-hp
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bitly_short
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cuttly_short
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tinyurl_short
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}base32
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}base64
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}debase32
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}debase64
+
+ 𝘽𝙐𝙂𝙑𝙄𝙋 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sendbug 628xxx
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}philips 628xxx
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}philips2 628xxx
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}philips3 628xxx
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}santet @tag
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}santet2 @tag
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}santet3 @tag
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}virtex 628xxx
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}virtex2 628xxx
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}virtex3 628xxx
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bug1 628xxx
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bug2 628xxx
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bug3 628xxx
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bug4 628xxx
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bug5 628xxx
+ 
+ 𝙍𝘼𝙉𝘿𝙊𝙈 𝘾𝙀𝙆 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekjelek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekcantik
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekganteng
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ceksad
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekharam
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekhalal
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekbego
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekanjing
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekbiadab
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekramah
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ceksatir
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekmanis
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekpahit
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekhitam
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekrasis
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekbaik
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekjahat
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekkaya
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekmiskin
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekpintar
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekbodoh
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekimut
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekkocak
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekkadang
+
+ 𝙎𝙀𝙍𝙏𝙄𝙁𝙄𝙆𝘼𝙏 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}toloserti <nama>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}badgirlserti <nama>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}goodgirlserti <nama>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}fuckgirlserti <nama>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bucinserti <nama>
+ 
+ 𝙇𝙊𝙂𝙊 𝙈𝘼𝙆𝙀𝙍 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}joker
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}digital
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}nulis
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}nulis2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}quoteser
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}quobucin
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}rem
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}girlneko
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sadboy
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}kaneki
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}lolimaker
+
+ 𝘼𝙉𝙊𝙉𝙔𝙈𝙊𝙐𝙎 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}buatroom 628xxx
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}room <only owner>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}stopchat <only room>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}menfess 628xx|bot|hai
+
+ 𝙎𝙊𝙎𝙈𝙀𝘿 𝙎𝙃𝙊𝙋 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}pricelist <layanan>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}order <cara order>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}like jumlah|target
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}view jumlah|target
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}follower jumlah|username
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cekstatus <idtrx>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}komisi <owner only>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tarikkomisi <owner only>
+ 
+ 𝙑𝙊𝙆𝘼𝙇 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}hilih <text>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}halah <text>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}huluh <text>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}heleh <text>
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}holoh <text>
+ 
+ 𝙍𝘼𝙉𝘿𝙊𝙈 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cecan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cogan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}mobil
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}islamic
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}darkjokes
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}boneka
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wallhp
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tatasurya
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}programing
+
+ 𝙋𝙍𝙄𝙈𝘽𝙊𝙉 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ramaljodoh
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ramalanjodoh
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}nomorhoki
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}artimimpi
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}artinama
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sifatusaha
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tafsirmimpi
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}pasangan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}suamiistri
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ramalcinta
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ramalancinta
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ramaljodohbali
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ramalanjodohbali
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cocoknama
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}kecocokannama
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cocokpasangan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}kecocokanpasangan
+
+ 𝘼𝙎𝙐𝙋𝘼𝙉 𝙂𝘼𝘾𝙃𝘼 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}rika
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bocil
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ukhty
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}santuy
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}hijaber
+
+ 𝘼𝙐𝘿𝙄𝙊 𝘾𝙃𝘼𝙉𝙂𝙀𝙍 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}fat
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}fast
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}slow
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bass
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}deep
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tupai
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}robot
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}blown
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}smooth
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}earrape
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}reverse
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}nightcore
+
+ 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}gempa
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}jadwaltv
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}gempanow
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bioskopnow
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}latintoaksara
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}aksaratolatin
+
+ 𝙍𝘼𝙉𝘿𝙊𝙈 𝙎𝙏𝙄𝘾𝙆𝙀𝙍 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}dadu
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}anjing
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}patrick
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bucinstick
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}gawrgura
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}amongus
+
+ 𝘼𝙐𝘿𝙄𝙊 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}audio${ad++}
+ 
+ 𝙁𝙐𝙉 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}goblokcek 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}jelekcek 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}gaycek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}lesbicek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}gantengcek 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cantikcek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}begocek 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}suhucek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}pintercek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}jagocek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}nolepcek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}babicek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bebancek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}baikcek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}jahatcek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}anjingcek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}haramcek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}pakboycek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}pakgirlcek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sangecek 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bapercek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}fakboycek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}alimcek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}suhucek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}fakgirlcek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}kerencek
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wibucek
+
+ 𝙒𝘼𝙇𝙇𝙋𝘼𝙋𝙀𝙍 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}milf
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}loli
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wallml
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}waifu
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}husbu
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cosplay
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ppcouple
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wallpaperislami
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wallpaperinori
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wallpaperanime
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wallpapergamer
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wallpapermeme
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wallpaperprogamer
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wallpaperteknologi
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wallpapercyber
+
+ 𝘼𝙉𝙄𝙈𝙀 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cry
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}hug
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}pat
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bully
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}lick
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}kiss
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}awoo
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}waifu
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}shinobu
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cuddle
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}megumin
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}slap
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}neko
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wink
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}dance
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}poke
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}glomp
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bite
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}nom
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}handhold
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}highfive
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wave
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}smug
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}smile
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bonk
+
+ 𝘾𝙀𝙍𝙋𝙀𝙉 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-sejarah
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-sedih
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-sastra
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-romantis
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-rohani
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-rindu
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-remaja
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-ramadhan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-petualangan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-persahabatan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-perpisahan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-perjuangan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-penyesalan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-pengorbanan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-pengalaman
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-pendidikan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-penantian
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-patahhati
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-olahraga
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-nasionalisme
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-nasihat
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-motivasi
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-misteri
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-mengharukan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-malaysia
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-liburan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-kristen
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-korea
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-kisahnyata
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-keluarga
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-kehidupan
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-jepang
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-inspiratif
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-gokil
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-galau
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-cintasejati
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-cintasegitiga
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-cintasedih
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-cintaromantis
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-cintapertama
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-cintaislami
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-cinta
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-budaya
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-bahasasunda
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-bahasajawa
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-bahasainggris
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-bahasadaerah
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cerpen-anak
+
+ 𝙉𝙎𝙁𝙒 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}yuri
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ero
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}foot
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ass
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cuckold
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cum
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}hentai
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}gangbang
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}femdom
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ahegao
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}glasses
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}jahy
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}orgy
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}pussy
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}thighs
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}panties
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}thighs
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}masturbation
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}chiisaihentai
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}trap
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}blowjob
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}yaoi
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ecchi
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}hentai
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ahegao
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}hololewd
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sideoppai
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}animefeets
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}animebooty
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}animethighss
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}hentaiparadise
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}animearmpits
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}hentaifemdom
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}lewdanimegirls
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}biganimetiddies
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}animebellybutton
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}hentai4everyone
+
+ 𝙎𝙊𝙐𝙉𝘿 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound1
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound3
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound4
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound5
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound6
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound7
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound8
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound9
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound10
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound11
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound12
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound13
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound14
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound15
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound16
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound17
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound18
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound19
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound20
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound21
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound22
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound23
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound24
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound25
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound26
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound27
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound28
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound29
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound30
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound31
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound32
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound33
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound34
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound35
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound36
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound37
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound38
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound39
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound40
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound41
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound42
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound43
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound44
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound45
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound46
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound47
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound48
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound49
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound50
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound51
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound52
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound53
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound54
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound55
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound56
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound57
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound58
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound59
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound60
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound61
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound62
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound63
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound64
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound65
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound66
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound67
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound68
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound69
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound70
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound71
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound72
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound73
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}sound74
+
+ 𝙏𝙀𝙓𝙏𝙋𝙍𝙊 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}metallic text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}naruto text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}butterfly text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}flaming text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}shadow text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cup text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cup1 text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}romance text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}smoke text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}burnpaper text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}lovemessage text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}undergrass text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}love text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}coffe text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}woodheart text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}woodenboard text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}summer3d text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wolfmetal text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}nature3d text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}underwater text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}goldenrose text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}summernature text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}letterleaves text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}glowingneon text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}fallleaves text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}flamming text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}harrypotter text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}carvedwood text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tiktok text1 text2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}arcade8bit text1 text2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}battlefield4 text1 text2
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}pubg text1 text2
+
+ 𝙀𝙋𝙃𝙊𝙏𝙊 𝙈𝙀𝙉𝙐 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wetglass text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}multicolor3d text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}watercolor text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}luxurygold text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}galaxywallpaper text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}lighttext text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}beautifulflower text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}puppycute text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}royaltext text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}heartshaped text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}birthdaycake text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}galaxystyle text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}hologram3d text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}greenneon text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}glossychrome text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}greenbush text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}metallogo text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}noeltext text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}glittergold text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}textcake text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}starsnight text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wooden3d text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}textbyname text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}writegalacy text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}galaxybat text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}snow3d text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}birthdayday text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}goldplaybutton text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}silverplaybutton text
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}freefire text
+
+ 𝙍𝘼𝙉𝘿𝙊𝙈 𝙄𝙈𝘼𝙂𝙀 
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}bj
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ero
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}ppcp
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cum
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}feet
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}yuri
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}trap
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}lewd
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}feed
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}eron
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}solo
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}gasm
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}poke
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}anal
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}holo
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}tits
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}kuni
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}kiss
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}erok
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}smug
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}baka
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}solog
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}feetg
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}lewdk
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}waifu
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}pussy
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}femdom
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cuddle
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}hentai
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}eroyuri
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}cum_jpg
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}blowjob
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}erofeet
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}holoero
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}classic
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}erokemo
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}fox_girl
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}futanari
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}lewdkemo
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}wallpaper
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}pussy_jpg
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}kemonomimi
+ ${no++} ✧⁠◝⁠(⁠⁰⁠▿⁠⁰⁠)⁠◜⁠✧ ${prefix}nsfw_avatar
+ `
+}
+
+exports.rulesBot = () =>{
+return`*──「 RULES-BOT 」──*
+
+1. Jangan spam himiko yaa(⁠◍⁠•⁠ᴗ⁠•⁠◍⁠)
+Sanksi: *WARN/SOFT BLOCK*
+
+2. Jangan telepon himikoo 😾 awas lu!!
+Sanksi: *SOFT BLOCK*
+
+3. Jangan mengejek bot.
+Sanksi: *PERMANENT BLOCK*
+
+Jika sudah paham rulesnya
+Ketik *#menu* untuk memulai bot himikoo (⁠◕⁠ᴗ⁠◕⁠✿⁠)`
+}
+
+exports.donasiBot = (cekName,ucapanWaktu) =>{
+return`──「 *MENU DONATE* 」──
+
+Hi *${cekName}* ${ucapanWaktu} 👋🏻
+
+*Payment pulsa*
+Number: chat owner 
+A/N: __
+
+*Payment Dana*
+Number: chat owner 
+A/N: mellyana
+
+${monoSpace}Terimakasih untuk kamu yang sudah donasi untuk perkembangan bot ini ^_^${monoSpace}
+
+──「 *THX FOR YOU* 」──`
+}
+
+exports.infoOwner = () =>{
+return`──「 *INFO OWNER* 」──
+
+ *Data Profil*
+ • *Nama:* Mellyana A.A.
+ • *Umur:* secret 
+ • *Hoby:* olahraga sieh
+ • *Askot:* secret 
+ • *Konten:* ntah
+
+_iam developer bot whatsapp._
+
+ *Sosial Media*
+ • *Whatsapp:* 17079624230
+ • *Youtube:* -
+ • *Github:* -
+ `
+}
